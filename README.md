@@ -3,7 +3,11 @@ An user interactive semi-automatic binary segmentation model implemented in Open
 Given sparse markings of foreground and background by the user, it calculates SLIC superpixels, and runs a graph-cut algorithm.
 Color histograms are calculated for all superpixels and foreground background. This algorithm takes into account superpixel-superpixel and superpixel-Foreground/Background interaction to obtain a final binary image segmentation.
 
-Uploaded Files Description:
+
+![alt text](https://github.com/nishagandhi/Binary-Segmentation/blob/master/Segmentation_output.gif
+)
+
+## Uploaded Files Description:
 
 
 main-bonus.py: Python code to implement interactive semi-automatic binary segmentation of an image.
